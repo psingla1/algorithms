@@ -1,9 +1,13 @@
-package pj.graph;
+package pj.tree;
 
 public class Node {
     int val;
     Node left;
     Node right;
+
+    public Node(int val) {
+        this(val, null, null);
+    }
 
     public Node(int val, Node left, Node right) {
         this.val = val;
@@ -29,12 +33,12 @@ public class Node {
 
 
     static Node parseTree(String s) {
-
+        return null;
     }
 
     static Node parseTree(String s, int pos) {
         String valStr = "";
-        while (pos < s.length() && s.charAt(pos))
+        return null;
     }
 
     public static void main(String args[]) {

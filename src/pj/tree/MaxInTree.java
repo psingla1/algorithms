@@ -1,4 +1,4 @@
-package pj.graph;
+package pj.tree;
 
 // Find the max element in a given binary tree.
 
